@@ -23,6 +23,7 @@ a = [1, 3, 5, 7, 9, 10]
 print(binarySearch(a, 0, 5, 9))
 print(binarySearch(a, 0, 5, 18))
 
+
 # Iterative Way
 
 def binarySearch1(a, l, r, key):
@@ -41,6 +42,7 @@ def binarySearch1(a, l, r, key):
 
     return -1
     # return l # if u want to know the position where key has to be placed
+
 
 a = [1, 3, 5, 7, 9, 10]
 
