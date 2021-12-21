@@ -1,5 +1,11 @@
 # Recursive Way
 def binarySearch(a, l, r, key):
+    """
+    :param a : input array
+    :param l : left index of array 
+    :param r : right index of array
+    :param key: Search element
+    """
     if l <= r:
 
         mid = (l + r) // 2
