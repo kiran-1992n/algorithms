@@ -33,6 +33,12 @@ print(binarySearch(a, 0, 5, 18))
 # Iterative Way
 
 def binarySearch1(a, l, r, key):
+    """
+    :param a : input array
+    :param l : left index of array 
+    :param r : right index of array
+    :param key: Search element
+    """
     while l <= r:
 
         mid = (l + r) // 2
